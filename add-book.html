@@ -70,11 +70,94 @@
             </nav>
         </header>
 
-         <!-- main -->
+        <!-- main -->
         <main>
             <div class="container">
                 <h2 class="my-4">Nuovo Libro</h2>
 
+                <form action method="post" class="row">
+
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for class="form-label fs-4">Nome autore</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name
+                                id
+                                placeholder="Inserisci il nome dell'autore" />
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for class="form-label fs-4">Cognome autore</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name
+                                id
+                                placeholder="Inserisci il cognome dell'autore" />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for class="form-label fs-4">Titolo</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name
+                                id
+                                aria-describedby="helpId"
+                                placeholder="Inserisci il titolo del libro" />
+                            <small id="helpId"
+                                class="form-text text-muted">Titolo versione
+                                italiana</small>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="mb-3">
+                            <label for class="form-label fs-4">Genere</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Scegli il genere</option>
+                                <option value="1">Avventura e Azione</option>
+                                <option value="2">Romanzo storico</option>
+                                <option value="3">Thriller</option>
+                                <option value="2">Fantasy</option>
+                                <option value="3">Horror</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="mb-3">
+                            <label for class="form-label fs-4">Anno di pubblicazione</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                name
+                                id
+                                placeholder="Inserisci l'anno di pubblicazione" />
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="mb-3">
+                            <label for class="form-label fs-4">ISBN#</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                name
+                                id
+                                placeholder="Inserisci il codice ISBN#" />
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                </div>
             </div>
         </main>
 
